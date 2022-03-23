@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: #212529;
+}
+
+a {
+    font-family: 'Lato' sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    font-family: 'Lato' sans-serif;
+}
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+    font-style: bold;
+}
+
+.dark{
+    background-color: #495057;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*container*/
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*side bar menu - table*/
+
