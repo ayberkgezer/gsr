@@ -1,0 +1,235 @@
+/*navbar*/
+#navbar1 {
+    font-family: 'Lato' sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.75rem;
+    height: 75px;
+    position: sticky;
+    top: 0;
+}
+ 
+#navbar1 h1{
+    font-family: 'Lato' sans-serif;
+    font-size: 50px;
+    width: 400px;
+    margin: auto 0;
+}
+
+#navbar1 ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar1 ul li a {
+    padding: 1.0rem;
+}
+#navbar1 ul li a:hover{
+    background-color: #ffffff4f;
+    border-radius: 5px;
+}
+
+/*leaderboard-top*/
+.leaderboard-top{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-area: ad-top;
+    min-height: 120px;
+    max-height: 250px;
+    margin: var(--s3);
+}
+
+#main{
+    grid: [stack] 1fr / minmax(min-content, 0.2fr) [stack] 1fr;
+    display: flex;
+}
+
+.important{
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: red;
+}
+
+.import-p p{
+    margin-top: 0.1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: red;
+}
+
+/* t1 main*/
+
+.main{
+    margin-left: 20rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.t1{
+    padding: 1.5rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.t1 h2{
+    color: #DEE2E6;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.t1 p{
+    margin-top: 0.75rem;
+    color: #DEE2E6;
+}
+
+.direct2{
+    display: flex;
+    align-items: flex-end;
+}
+
+#p2{
+    align-items: center;
+}
+
+#img2{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.con{
+    margin-right: 2rem;
+}
+
+.con2{
+    margin-right: 5rem;
+}
+
+.social{
+    margin-top: 1.5rem;
+}
+
+/*Social Icons*/
+
+.button.twitch {
+    height: 65px;
+}
+  
+.twitch {
+    background: rgba(255, 255, 255, 0.226);
+    color: #9146FF;
+    overflow: visible;
+    box-shadow: 0px 0px 0px #9146FF;
+    transition: 0.1s;
+}
+.twitch:hover {
+    transform: translate(-8px, -4px);
+    box-shadow: 8px 4px 0px #9146FF; 
+}
+.twitch:active {
+    transition: 0.03s;
+    transform: translate(-6px, -3px);
+    box-shadow: 6px 3px 0px #9146FF; 
+}
+  
+div.twitch div.icon {
+    width: 77.14px;
+    height: 90px;
+    background-size: cover;
+    transform: translate(0px, 7px);
+    background-image: url('https://i.ibb.co/ZLshBr7/Twitch.png');
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow(0px 4px 0px rgba(255, 255, 255, 1));
+    filter: drop-shadow(0px 4px 0px rgba(255, 255, 255, 1));
+}
+
+.twitter {
+    background: rgba(255, 255, 255, 0.226);
+    color: black;
+}
+.twitter:active {
+    background: rgba(0, 153, 255, 0.616);
+}
+  
+div.twitter div.icon {
+    background-image: url('https://i.ibb.co/3Mpt37S/Twitter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  div.twitter p.title::before {
+    content: '@';
+}
+
+.discord {
+    background: #2C2F33;
+    color: rgba(0, 153, 255, 0.616);
+    overflow: visible;
+    transition: 0.1s;
+}
+.discord:hover {
+    transition: 0.1s;
+    background: #3D3F43;
+}
+.discord:active {
+    transition: 0.05s;
+    background: #4D4F51;
+}
+  
+div.discord div.icon {
+    height: 85.5px;
+    background-size: cover;
+    transform: translateY(5px);
+    background-image: url('https://i.ibb.co/McgWh0z/Discord.png');
+    background-repeat: no-repeat;
+    -webkit-filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+}
+
+.button {
+    overflow: hidden;
+    width: 100%;
+    height: 75px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16pt;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* Delete */
+    margin-bottom: 25px;
+}
+  .button .icon {
+    width: 75px;
+    height: 75px;
+}
+  .button .title {
+    flex: 1;
+    text-align: center;
+}
+
+/*thnaks*/
+
+.thanks{
+    margin-top: 2rem;
+}
+
+.thanks p{
+    color: #DEE2E6;
+}
